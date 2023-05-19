@@ -1,0 +1,8 @@
+# Eureka Server: holds all the info about client-service applications
+server:
+  port: 8761
+
+eureka:
+  client:
+      register-with-eureka: false
+      fetch-registry: false
